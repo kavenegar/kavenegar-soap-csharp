@@ -1,0 +1,11 @@
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\bin\Debug\Kavenegar.exe.config
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\bin\Debug\Kavenegar.exe
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\bin\Debug\Kavenegar.pdb
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\obj\Debug\Kavenegar.csprojResolveAssemblyReference.cache
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\obj\Debug\Kavenegar.exe
+D:\Projects\SDK\SOAP\C#\Kavenegar\Kavenegar\obj\Debug\Kavenegar.pdb
+D:\Projects\SDK\kavenegar-csharp-soap\Kavenegar\bin\Debug\Kavenegar.exe.config
+D:\Projects\SDK\kavenegar-csharp-soap\Kavenegar\obj\Debug\Kavenegar.exe
+D:\Projects\SDK\kavenegar-csharp-soap\Kavenegar\obj\Debug\Kavenegar.pdb
+D:\Projects\SDK\kavenegar-csharp-soap\Kavenegar\bin\Debug\Kavenegar.exe
+D:\Projects\SDK\kavenegar-csharp-soap\Kavenegar\bin\Debug\Kavenegar.pdb
