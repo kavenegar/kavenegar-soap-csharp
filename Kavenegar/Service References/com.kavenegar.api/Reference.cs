@@ -492,159 +492,110 @@ namespace Kavenegar.com.kavenegar.api {
     [System.ServiceModel.ServiceContractAttribute(Namespace="http://api.kavenegar.com/", ConfigurationName="com.kavenegar.api.v1Soap")]
     public interface v1Soap {
         
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendAdvance", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendAdvanceResponse SendAdvance(Kavenegar.com.kavenegar.api.SendAdvanceRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendAdvance", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendAdvanceResponse> SendAdvanceAsync(Kavenegar.com.kavenegar.api.SendAdvanceRequest request);
-        
+        // CODEGEN: Generating message contract since element name statusmessage from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ProvinceInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.ProvinceInfoResponse ProvinceInfo(Kavenegar.com.kavenegar.api.ProvinceInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ProvinceInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ProvinceInfoResponse> ProvinceInfoAsync(Kavenegar.com.kavenegar.api.ProvinceInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name statusmessage from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CityInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.CityInfoResponse CityInfo(Kavenegar.com.kavenegar.api.CityInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CityInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CityInfoResponse> CityInfoAsync(Kavenegar.com.kavenegar.api.CityInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendRandomBulkByApiKey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyResponse SendRandomBulkByApiKey(Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendRandomBulkByApiKey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyResponse> SendRandomBulkByApiKeyAsync(Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSequentialBulkByApiKey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyResponse SendSequentialBulkByApiKey(Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSequentialBulkByApiKey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyResponse> SendSequentialBulkByApiKeyAsync(Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSimpleByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse SendSimpleByApikey(Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSimpleByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse> SendSimpleByApikeyAsync(Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSimpleByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoResponse SendSimpleByLoginInfo(Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendSimpleByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoResponse> SendSimpleByLoginInfoAsync(Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendArrayByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse SendArrayByLoginInfo(Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendArrayByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse> SendArrayByLoginInfoAsync(Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendArrayByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse SendArrayByApikey(Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendArrayByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse> SendArrayByApikeyAsync(Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendPostalCodeByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyResponse SendPostalCodeByApikey(Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SendPostalCodeByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyResponse> SendPostalCodeByApikeyAsync(Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CountPostalCode", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.CountPostalCodeResponse CountPostalCode(Kavenegar.com.kavenegar.api.CountPostalCodeRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CountPostalCode", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CountPostalCodeResponse> CountPostalCodeAsync(Kavenegar.com.kavenegar.api.CountPostalCodeRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/GetStatusByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse GetStatusByApikey(Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/GetStatusByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse> GetStatusByApikeyAsync(Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/GetStatusByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.GetStatusByLoginInfoResponse GetStatusByLoginInfo(Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/GetStatusByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByLoginInfoResponse> GetStatusByLoginInfoAsync(Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectByApikeyResponse SelectByApikey(Kavenegar.com.kavenegar.api.SelectByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByApikeyResponse> SelectByApikeyAsync(Kavenegar.com.kavenegar.api.SelectByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name username from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectByLoginInfoResponse SelectByLoginInfo(Kavenegar.com.kavenegar.api.SelectByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByLoginInfoResponse> SelectByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectoutboxByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse SelectoutboxByApikey(Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectoutboxByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse> SelectoutboxByApikeyAsync(Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name username from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectoutboxByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoResponse SelectoutboxByLoginInfo(Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectoutboxByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoResponse> SelectoutboxByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectlatestByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse SelectlatestByApikey(Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectlatestByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse> SelectlatestByApikeyAsync(Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name username from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectlatestByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoResponse SelectlatestByLoginInfo(Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/SelectlatestByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoResponse> SelectlatestByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CancelByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.CancelByApikeyResponse CancelByApikey(Kavenegar.com.kavenegar.api.CancelByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CancelByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByApikeyResponse> CancelByApikeyAsync(Kavenegar.com.kavenegar.api.CancelByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CancelByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.CancelByLoginInfoResponse CancelByLoginInfo(Kavenegar.com.kavenegar.api.CancelByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/CancelByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByLoginInfoResponse> CancelByLoginInfoAsync(Kavenegar.com.kavenegar.api.CancelByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ReceiveByApikey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse ReceiveByApikey(Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ReceiveByApikey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse> ReceiveByApikeyAsync(Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ReceiveByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.ReceiveByLoginInfoResponse ReceiveByLoginInfo(Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/ReceiveByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByLoginInfoResponse> ReceiveByLoginInfoAsync(Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequest request);
-        
+        // CODEGEN: Generating message contract since element name apikey from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/RemainCreditByApiKey", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse RemainCreditByApiKey(Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/RemainCreditByApiKey", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse> RemainCreditByApiKeyAsync(Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest request);
-        
+        // CODEGEN: Generating message contract since element name userName from namespace http://api.kavenegar.com/ is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/RemainCreditByLoginInfo", ReplyAction="*")]
         Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoResponse RemainCreditByLoginInfo(Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://api.kavenegar.com/RemainCreditByLoginInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoResponse> RemainCreditByLoginInfoAsync(Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendAdvanceRequest {
         
@@ -661,6 +612,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendAdvanceRequestBody {
         
@@ -717,6 +669,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendAdvanceResponse {
         
@@ -733,6 +686,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendAdvanceResponseBody {
         
@@ -757,6 +711,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ProvinceInfoRequest {
         
@@ -773,6 +728,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ProvinceInfoRequestBody {
         
@@ -793,6 +749,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ProvinceInfoResponse {
         
@@ -809,6 +766,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ProvinceInfoResponseBody {
         
@@ -833,6 +791,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CityInfoRequest {
         
@@ -849,6 +808,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CityInfoRequestBody {
         
@@ -873,6 +833,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CityInfoResponse {
         
@@ -889,6 +850,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CityInfoResponseBody {
         
@@ -913,6 +875,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendRandomBulkByApiKeyRequest {
         
@@ -929,6 +892,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendRandomBulkByApiKeyRequestBody {
         
@@ -977,6 +941,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendRandomBulkByApiKeyResponse {
         
@@ -993,6 +958,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendRandomBulkByApiKeyResponseBody {
         
@@ -1017,6 +983,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSequentialBulkByApiKeyRequest {
         
@@ -1033,6 +1000,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSequentialBulkByApiKeyRequestBody {
         
@@ -1085,6 +1053,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSequentialBulkByApiKeyResponse {
         
@@ -1101,6 +1070,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSequentialBulkByApiKeyResponseBody {
         
@@ -1125,6 +1095,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSimpleByApikeyRequest {
         
@@ -1141,6 +1112,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSimpleByApikeyRequestBody {
         
@@ -1185,6 +1157,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSimpleByApikeyResponse {
         
@@ -1201,6 +1174,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSimpleByApikeyResponseBody {
         
@@ -1225,6 +1199,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSimpleByLoginInfoRequest {
         
@@ -1241,6 +1216,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSimpleByLoginInfoRequestBody {
         
@@ -1289,6 +1265,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendSimpleByLoginInfoResponse {
         
@@ -1305,6 +1282,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendSimpleByLoginInfoResponseBody {
         
@@ -1329,6 +1307,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendArrayByLoginInfoRequest {
         
@@ -1345,6 +1324,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendArrayByLoginInfoRequestBody {
         
@@ -1393,6 +1373,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendArrayByLoginInfoResponse {
         
@@ -1409,6 +1390,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendArrayByLoginInfoResponseBody {
         
@@ -1433,6 +1415,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendArrayByApikeyRequest {
         
@@ -1449,6 +1432,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendArrayByApikeyRequestBody {
         
@@ -1493,6 +1477,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendArrayByApikeyResponse {
         
@@ -1509,6 +1494,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendArrayByApikeyResponseBody {
         
@@ -1533,6 +1519,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendPostalCodeByApikeyRequest {
         
@@ -1549,6 +1536,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendPostalCodeByApikeyRequestBody {
         
@@ -1605,6 +1593,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SendPostalCodeByApikeyResponse {
         
@@ -1621,6 +1610,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SendPostalCodeByApikeyResponseBody {
         
@@ -1645,6 +1635,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CountPostalCodeRequest {
         
@@ -1661,6 +1652,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CountPostalCodeRequestBody {
         
@@ -1689,6 +1681,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CountPostalCodeResponse {
         
@@ -1705,6 +1698,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CountPostalCodeResponseBody {
         
@@ -1729,6 +1723,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class GetStatusByApikeyRequest {
         
@@ -1745,6 +1740,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class GetStatusByApikeyRequestBody {
         
@@ -1773,6 +1769,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class GetStatusByApikeyResponse {
         
@@ -1789,6 +1786,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class GetStatusByApikeyResponseBody {
         
@@ -1813,6 +1811,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class GetStatusByLoginInfoRequest {
         
@@ -1829,6 +1828,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class GetStatusByLoginInfoRequestBody {
         
@@ -1861,6 +1861,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class GetStatusByLoginInfoResponse {
         
@@ -1877,6 +1878,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class GetStatusByLoginInfoResponseBody {
         
@@ -1901,6 +1903,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectByApikeyRequest {
         
@@ -1917,6 +1920,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectByApikeyRequestBody {
         
@@ -1945,6 +1949,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectByApikeyResponse {
         
@@ -1961,6 +1966,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectByApikeyResponseBody {
         
@@ -1985,6 +1991,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectByLoginInfoRequest {
         
@@ -2001,6 +2008,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectByLoginInfoRequestBody {
         
@@ -2033,6 +2041,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectByLoginInfoResponse {
         
@@ -2049,6 +2058,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectByLoginInfoResponseBody {
         
@@ -2073,6 +2083,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectoutboxByApikeyRequest {
         
@@ -2089,6 +2100,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectoutboxByApikeyRequestBody {
         
@@ -2121,6 +2133,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectoutboxByApikeyResponse {
         
@@ -2137,6 +2150,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectoutboxByApikeyResponseBody {
         
@@ -2161,6 +2175,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectoutboxByLoginInfoRequest {
         
@@ -2177,6 +2192,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectoutboxByLoginInfoRequestBody {
         
@@ -2213,6 +2229,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectoutboxByLoginInfoResponse {
         
@@ -2229,6 +2246,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectoutboxByLoginInfoResponseBody {
         
@@ -2253,6 +2271,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectlatestByApikeyRequest {
         
@@ -2269,6 +2288,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectlatestByApikeyRequestBody {
         
@@ -2297,6 +2317,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectlatestByApikeyResponse {
         
@@ -2313,6 +2334,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectlatestByApikeyResponseBody {
         
@@ -2337,6 +2359,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectlatestByLoginInfoRequest {
         
@@ -2353,6 +2376,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectlatestByLoginInfoRequestBody {
         
@@ -2385,6 +2409,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class SelectlatestByLoginInfoResponse {
         
@@ -2401,6 +2426,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class SelectlatestByLoginInfoResponseBody {
         
@@ -2425,6 +2451,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CancelByApikeyRequest {
         
@@ -2441,6 +2468,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CancelByApikeyRequestBody {
         
@@ -2469,6 +2497,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CancelByApikeyResponse {
         
@@ -2485,6 +2514,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CancelByApikeyResponseBody {
         
@@ -2509,6 +2539,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CancelByLoginInfoRequest {
         
@@ -2525,6 +2556,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CancelByLoginInfoRequestBody {
         
@@ -2557,6 +2589,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CancelByLoginInfoResponse {
         
@@ -2573,6 +2606,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class CancelByLoginInfoResponseBody {
         
@@ -2597,6 +2631,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ReceiveByApikeyRequest {
         
@@ -2613,6 +2648,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ReceiveByApikeyRequestBody {
         
@@ -2645,6 +2681,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ReceiveByApikeyResponse {
         
@@ -2661,6 +2698,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ReceiveByApikeyResponseBody {
         
@@ -2685,6 +2723,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ReceiveByLoginInfoRequest {
         
@@ -2701,6 +2740,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ReceiveByLoginInfoRequestBody {
         
@@ -2737,6 +2777,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ReceiveByLoginInfoResponse {
         
@@ -2753,6 +2794,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class ReceiveByLoginInfoResponseBody {
         
@@ -2777,6 +2819,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RemainCreditByApiKeyRequest {
         
@@ -2793,6 +2836,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class RemainCreditByApiKeyRequestBody {
         
@@ -2817,6 +2861,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RemainCreditByApiKeyResponse {
         
@@ -2833,6 +2878,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class RemainCreditByApiKeyResponseBody {
         
@@ -2857,6 +2903,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RemainCreditByLoginInfoRequest {
         
@@ -2873,6 +2920,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class RemainCreditByLoginInfoRequestBody {
         
@@ -2901,6 +2949,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RemainCreditByLoginInfoResponse {
         
@@ -2917,6 +2966,7 @@ namespace Kavenegar.com.kavenegar.api {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://api.kavenegar.com/")]
     public partial class RemainCreditByLoginInfoResponseBody {
         
@@ -2992,28 +3042,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendAdvanceResponse> Kavenegar.com.kavenegar.api.v1Soap.SendAdvanceAsync(Kavenegar.com.kavenegar.api.SendAdvanceRequest request) {
-            return base.Channel.SendAdvanceAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendAdvanceResponse> SendAdvanceAsync(string apikey, string sender, string message, int encoding, string receptor, long unixdate, int messagemode, string fallbackurl, string clientmessageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendAdvanceRequest inValue = new Kavenegar.com.kavenegar.api.SendAdvanceRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendAdvanceRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.encoding = encoding;
-            inValue.Body.receptor = receptor;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.messagemode = messagemode;
-            inValue.Body.fallbackurl = fallbackurl;
-            inValue.Body.clientmessageid = clientmessageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendAdvanceAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.ProvinceInfoResponse Kavenegar.com.kavenegar.api.v1Soap.ProvinceInfo(Kavenegar.com.kavenegar.api.ProvinceInfoRequest request) {
             return base.Channel.ProvinceInfo(request);
         }
@@ -3027,19 +3055,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.ProvinceInfoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ProvinceInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.ProvinceInfoAsync(Kavenegar.com.kavenegar.api.ProvinceInfoRequest request) {
-            return base.Channel.ProvinceInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ProvinceInfoResponse> ProvinceInfoAsync(int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.ProvinceInfoRequest inValue = new Kavenegar.com.kavenegar.api.ProvinceInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.ProvinceInfoRequestBody();
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).ProvinceInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3057,20 +3072,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.CityInfoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CityInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.CityInfoAsync(Kavenegar.com.kavenegar.api.CityInfoRequest request) {
-            return base.Channel.CityInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CityInfoResponse> CityInfoAsync(int provinceid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.CityInfoRequest inValue = new Kavenegar.com.kavenegar.api.CityInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.CityInfoRequestBody();
-            inValue.Body.provinceid = provinceid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).CityInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3094,26 +3095,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SendRandomBulkByApiKeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SendRandomBulkByApiKeyAsync(Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequest request) {
-            return base.Channel.SendRandomBulkByApiKeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyResponse> SendRandomBulkByApiKeyAsync(string apikey, string sender, string message, int provinceid, int cityid, Kavenegar.com.kavenegar.api.BulkRecipientType recipientKind, long randomcount, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequest inValue = new Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.provinceid = provinceid;
-            inValue.Body.cityid = cityid;
-            inValue.Body.recipientKind = recipientKind;
-            inValue.Body.randomcount = randomcount;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendRandomBulkByApiKeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3141,27 +3122,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SendSequentialBulkByApiKeyAsync(Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequest request) {
-            return base.Channel.SendSequentialBulkByApiKeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyResponse> SendSequentialBulkByApiKeyAsync(string apikey, string sender, string message, int provinceid, int cityid, Kavenegar.com.kavenegar.api.BulkRecipientType recipientKind, long startindex, long length, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequest inValue = new Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.provinceid = provinceid;
-            inValue.Body.cityid = cityid;
-            inValue.Body.recipientKind = recipientKind;
-            inValue.Body.startindex = startindex;
-            inValue.Body.length = length;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendSequentialBulkByApiKeyAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.SendSimpleByApikey(Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest request) {
             return base.Channel.SendSimpleByApikey(request);
         }
@@ -3181,25 +3141,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SendSimpleByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SendSimpleByApikeyAsync(Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest request) {
-            return base.Channel.SendSimpleByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse> SendSimpleByApikeyAsync(string apikey, string sender, string message, Kavenegar.com.kavenegar.api.ArrayOfString receptor, long unixdate, int msgmode, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendSimpleByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.receptor = receptor;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.msgmode = msgmode;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendSimpleByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3226,26 +3167,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.SendSimpleByLoginInfoAsync(Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequest request) {
-            return base.Channel.SendSimpleByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoResponse> SendSimpleByLoginInfoAsync(string userName, string password, string sender, string message, Kavenegar.com.kavenegar.api.ArrayOfString receptor, long unixdate, int msgmode, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.receptor = receptor;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.msgmode = msgmode;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendSimpleByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse Kavenegar.com.kavenegar.api.v1Soap.SendArrayByLoginInfo(Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest request) {
             return base.Channel.SendArrayByLoginInfo(request);
         }
@@ -3269,26 +3190,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.SendArrayByLoginInfoAsync(Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest request) {
-            return base.Channel.SendArrayByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse> SendArrayByLoginInfoAsync(string userName, string password, Kavenegar.com.kavenegar.api.ArrayOfString sender, Kavenegar.com.kavenegar.api.ArrayOfString message, Kavenegar.com.kavenegar.api.ArrayOfString receptor, long unixdate, Kavenegar.com.kavenegar.api.ArrayOfInt msgmode, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendArrayByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.receptor = receptor;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.msgmode = msgmode;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendArrayByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.SendArrayByApikey(Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest request) {
             return base.Channel.SendArrayByApikey(request);
         }
@@ -3308,25 +3209,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SendArrayByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SendArrayByApikeyAsync(Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest request) {
-            return base.Channel.SendArrayByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse> SendArrayByApikeyAsync(string apikey, Kavenegar.com.kavenegar.api.ArrayOfString sender, Kavenegar.com.kavenegar.api.ArrayOfString message, Kavenegar.com.kavenegar.api.ArrayOfString receptor, long unixdate, Kavenegar.com.kavenegar.api.ArrayOfInt msgmode, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SendArrayByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendArrayByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.receptor = receptor;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.msgmode = msgmode;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendArrayByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3355,28 +3237,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SendPostalCodeByApikeyAsync(Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequest request) {
-            return base.Channel.SendPostalCodeByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyResponse> SendPostalCodeByApikeyAsync(string apikey, string sender, string message, long unixdate, int msgmode, long postalcode, long startindex, long count, bool random, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.sender = sender;
-            inValue.Body.message = message;
-            inValue.Body.unixdate = unixdate;
-            inValue.Body.msgmode = msgmode;
-            inValue.Body.postalcode = postalcode;
-            inValue.Body.startindex = startindex;
-            inValue.Body.count = count;
-            inValue.Body.random = random;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SendPostalCodeByApikeyAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.CountPostalCodeResponse Kavenegar.com.kavenegar.api.v1Soap.CountPostalCode(Kavenegar.com.kavenegar.api.CountPostalCodeRequest request) {
             return base.Channel.CountPostalCode(request);
         }
@@ -3395,21 +3255,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CountPostalCodeResponse> Kavenegar.com.kavenegar.api.v1Soap.CountPostalCodeAsync(Kavenegar.com.kavenegar.api.CountPostalCodeRequest request) {
-            return base.Channel.CountPostalCodeAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CountPostalCodeResponse> CountPostalCodeAsync(string apikey, long postalcode, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.CountPostalCodeRequest inValue = new Kavenegar.com.kavenegar.api.CountPostalCodeRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.CountPostalCodeRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.postalcode = postalcode;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).CountPostalCodeAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.GetStatusByApikey(Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest request) {
             return base.Channel.GetStatusByApikey(request);
         }
@@ -3425,21 +3270,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.GetStatusByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.GetStatusByApikeyAsync(Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest request) {
-            return base.Channel.GetStatusByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse> GetStatusByApikeyAsync(string apikey, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.GetStatusByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.GetStatusByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).GetStatusByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3462,22 +3292,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.GetStatusByLoginInfoAsync(Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequest request) {
-            return base.Channel.GetStatusByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.GetStatusByLoginInfoResponse> GetStatusByLoginInfoAsync(string userName, string password, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.GetStatusByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).GetStatusByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SelectByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.SelectByApikey(Kavenegar.com.kavenegar.api.SelectByApikeyRequest request) {
             return base.Channel.SelectByApikey(request);
         }
@@ -3493,21 +3307,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SelectByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectByApikeyAsync(Kavenegar.com.kavenegar.api.SelectByApikeyRequest request) {
-            return base.Channel.SelectByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByApikeyResponse> SelectByApikeyAsync(string apikey, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SelectByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3530,22 +3329,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectByLoginInfoRequest request) {
-            return base.Channel.SelectByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectByLoginInfoResponse> SelectByLoginInfoAsync(string username, string password, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.SelectByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectByLoginInfoRequestBody();
-            inValue.Body.username = username;
-            inValue.Body.password = password;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.SelectoutboxByApikey(Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest request) {
             return base.Channel.SelectoutboxByApikey(request);
         }
@@ -3562,22 +3345,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SelectoutboxByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectoutboxByApikeyAsync(Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest request) {
-            return base.Channel.SelectoutboxByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse> SelectoutboxByApikeyAsync(string apikey, long startUnixdate, long endUnixdate, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectoutboxByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.startUnixdate = startUnixdate;
-            inValue.Body.endUnixdate = endUnixdate;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectoutboxByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3601,23 +3368,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectoutboxByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequest request) {
-            return base.Channel.SelectoutboxByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoResponse> SelectoutboxByLoginInfoAsync(string username, string password, long startUnixdate, long endUnixdate, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoRequestBody();
-            inValue.Body.username = username;
-            inValue.Body.password = password;
-            inValue.Body.startUnixdate = startUnixdate;
-            inValue.Body.endUnixdate = endUnixdate;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectoutboxByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.SelectlatestByApikey(Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest request) {
             return base.Channel.SelectlatestByApikey(request);
         }
@@ -3633,21 +3383,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.SelectlatestByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectlatestByApikeyAsync(Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest request) {
-            return base.Channel.SelectlatestByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse> SelectlatestByApikeyAsync(string apikey, int pagesize, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectlatestByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.pagesize = pagesize;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectlatestByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3670,22 +3405,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.SelectlatestByLoginInfoAsync(Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequest request) {
-            return base.Channel.SelectlatestByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoResponse> SelectlatestByLoginInfoAsync(string username, string password, int pagesize, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoRequestBody();
-            inValue.Body.username = username;
-            inValue.Body.password = password;
-            inValue.Body.pagesize = pagesize;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).SelectlatestByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.CancelByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.CancelByApikey(Kavenegar.com.kavenegar.api.CancelByApikeyRequest request) {
             return base.Channel.CancelByApikey(request);
         }
@@ -3701,21 +3420,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.CancelByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.CancelByApikeyAsync(Kavenegar.com.kavenegar.api.CancelByApikeyRequest request) {
-            return base.Channel.CancelByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByApikeyResponse> CancelByApikeyAsync(string apikey, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.CancelByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.CancelByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.CancelByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).CancelByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3738,22 +3442,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.CancelByLoginInfoAsync(Kavenegar.com.kavenegar.api.CancelByLoginInfoRequest request) {
-            return base.Channel.CancelByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.CancelByLoginInfoResponse> CancelByLoginInfoAsync(string userName, string password, Kavenegar.com.kavenegar.api.ArrayOfLong messageid, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.CancelByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.CancelByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.CancelByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.messageid = messageid;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).CancelByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse Kavenegar.com.kavenegar.api.v1Soap.ReceiveByApikey(Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest request) {
             return base.Channel.ReceiveByApikey(request);
         }
@@ -3770,22 +3458,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.ReceiveByApikeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse> Kavenegar.com.kavenegar.api.v1Soap.ReceiveByApikeyAsync(Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest request) {
-            return base.Channel.ReceiveByApikeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse> ReceiveByApikeyAsync(string apikey, string lineNumber, short isread, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest inValue = new Kavenegar.com.kavenegar.api.ReceiveByApikeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.ReceiveByApikeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.lineNumber = lineNumber;
-            inValue.Body.isread = isread;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).ReceiveByApikeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3809,23 +3481,6 @@ namespace Kavenegar.com.kavenegar.api {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.ReceiveByLoginInfoAsync(Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequest request) {
-            return base.Channel.ReceiveByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.ReceiveByLoginInfoResponse> ReceiveByLoginInfoAsync(string userName, string password, string lineNumber, short isread, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.ReceiveByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.lineNumber = lineNumber;
-            inValue.Body.isread = isread;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).ReceiveByLoginInfoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse Kavenegar.com.kavenegar.api.v1Soap.RemainCreditByApiKey(Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest request) {
             return base.Channel.RemainCreditByApiKey(request);
         }
@@ -3840,20 +3495,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.RemainCreditByApiKeyResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse> Kavenegar.com.kavenegar.api.v1Soap.RemainCreditByApiKeyAsync(Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest request) {
-            return base.Channel.RemainCreditByApiKeyAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse> RemainCreditByApiKeyAsync(string apikey, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest inValue = new Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.RemainCreditByApiKeyRequestBody();
-            inValue.Body.apikey = apikey;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).RemainCreditByApiKeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -3872,21 +3513,6 @@ namespace Kavenegar.com.kavenegar.api {
             status = retVal.Body.status;
             statusmessage = retVal.Body.statusmessage;
             return retVal.Body.RemainCreditByLoginInfoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoResponse> Kavenegar.com.kavenegar.api.v1Soap.RemainCreditByLoginInfoAsync(Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequest request) {
-            return base.Channel.RemainCreditByLoginInfoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoResponse> RemainCreditByLoginInfoAsync(string userName, string password, int status, string statusmessage) {
-            Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequest inValue = new Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequest();
-            inValue.Body = new Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoRequestBody();
-            inValue.Body.userName = userName;
-            inValue.Body.password = password;
-            inValue.Body.status = status;
-            inValue.Body.statusmessage = statusmessage;
-            return ((Kavenegar.com.kavenegar.api.v1Soap)(this)).RemainCreditByLoginInfoAsync(inValue);
         }
     }
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="02ac327d-f349-498d-b125-6377ec87e03d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ebb9a6a6-3ca1-447b-95bc-37bd0aa205be" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
-    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -22,8 +21,8 @@
     <MetadataSource Address="https://api.kavenegar.com/soap/v1.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="v1.disco" MetadataType="Disco" ID="97e2f9d1-03f5-4ea5-b457-5267d6608c66" SourceId="1" SourceUrl="https://api.kavenegar.com/soap/v1.asmx?disco" />
-    <MetadataFile FileName="v1.wsdl" MetadataType="Wsdl" ID="0307839c-ce2b-4753-b917-560c56af727f" SourceId="1" SourceUrl="https://api.kavenegar.com/soap/v1.asmx?wsdl" />
+    <MetadataFile FileName="v1.disco" MetadataType="Disco" ID="4816de62-7603-447a-870f-15547bd5900b" SourceId="1" SourceUrl="https://api.kavenegar.com/soap/v1.asmx?disco" />
+    <MetadataFile FileName="v1.wsdl" MetadataType="Wsdl" ID="d1cf1dac-e6d1-4ec3-983f-93553d7f0f5e" SourceId="1" SourceUrl="https://api.kavenegar.com/soap/v1.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

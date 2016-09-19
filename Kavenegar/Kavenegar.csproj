@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kavenegar</RootNamespace>
     <AssemblyName>Kavenegar</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,81 +72,6 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.ArrayOfLong.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.CancelByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.CancelByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.CityInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.CountPostalCodeResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.GetStatusByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.GetStatusByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.ProvinceInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.ReceiveByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.ReceiveByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.RemainCreditByApiKeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.RemainCreditByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectlatestByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectlatestByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectoutboxByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SelectoutboxByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendAdvanceResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendArrayByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendArrayByLoginInfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendPostalCodeByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendRandomBulkByApiKeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendSequentialBulkByApiKeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendSimpleByApikeyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\com.kavenegar.api\Kavenegar.com.kavenegar.api.SendSimpleByLoginInfoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\com.kavenegar.api\v1.wsdl" />
