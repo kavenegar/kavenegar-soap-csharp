@@ -13,8 +13,6 @@ namespace Kavenegar
         private const string message = "your message";
         private const long postalcode = 12124;//your postal code
 
-
-
         private static v1SoapClient _client;
 
         static void Main()
