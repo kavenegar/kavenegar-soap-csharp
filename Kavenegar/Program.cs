@@ -13,8 +13,6 @@ namespace Kavenegar
         private const string message = "your message";
         private const long postalcode = 12124;//your postal code
 
-
-
         private static v1SoapClient _client;
 
         static void Main()
@@ -58,7 +56,7 @@ namespace Kavenegar
                 }
                 else if (result != null)
                 {
-                    var smsstatus = GetStatusByApikey(result);
+                    var smsstatus = GetStatusByApikey();
                     foreach (var st in smsstatus)
                     {
                         switch (st)
@@ -117,7 +115,7 @@ namespace Kavenegar
                 }
                 else if (result != null)
                 {
-                    var smsstatus = GetStatusByApikey(result);
+                    var smsstatus = GetStatusByApikey();
                     foreach (var st in smsstatus)
                     {
                         switch (st)
@@ -221,7 +219,7 @@ namespace Kavenegar
                     userName = UserName,
                     password=Password,
                     message = new ArrayOfString { message },
-                    sender = new ArrayOfString { sender},
+                    sender = new ArrayOfString { Sender},
                     msgmode = new ArrayOfInt { 0 },
                     receptor = new ArrayOfString { receptor},
                     status = 0,
@@ -235,7 +233,7 @@ namespace Kavenegar
                 }
                 else if (result != null)
                 {
-                    var smsstatus = GetStatusByApikey(result);
+                    var smsstatus = GetStatusByApikey();
                     foreach (var st in smsstatus)
                     {
                         switch (st)
