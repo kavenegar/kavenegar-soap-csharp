@@ -20,3 +20,10 @@ D:\Project\kavenegar\github\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.
 D:\Project\kavenegar\github\kavenegar-soap-csharp\Kavenegar\bin\Debug\Kavenegar.exe
 D:\Project\kavenegar\github\kavenegar-soap-csharp\Kavenegar\bin\Debug\Kavenegar.pdb
 D:\Project\kavenegar\github\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.csprojResolveAssemblyReference.cache
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\bin\Debug\Kavenegar.exe.config
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\bin\Debug\Kavenegar.exe
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\bin\Debug\Kavenegar.pdb
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.csprojResolveAssemblyReference.cache
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.csproj.CoreCompileInputs.cache
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.exe
+D:\Projects\github\kavenegar\kavenegar-soap-csharp\Kavenegar\obj\Debug\Kavenegar.pdb
